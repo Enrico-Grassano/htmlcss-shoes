@@ -8,6 +8,14 @@
 /* Common */
 body {
     font-family: 'Rubik Mono One', sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
 }
 
 h1 {
@@ -44,10 +52,10 @@ a {
     display: inline-block;
     width: 40px;
     height: 40px;
-    border: 1px solid black;
     border-radius: 50%;
     text-align: center;
     background-color: white;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
 /* Main */
@@ -58,12 +66,12 @@ a {
 
 .model2 {
     color: yellow;
-    background-color: green; 
+    background-color: green;
 }
 
 .model3 {
     color: green;
-    background-color: yellow;  
+    background-color: yellow;
 }
 
 
